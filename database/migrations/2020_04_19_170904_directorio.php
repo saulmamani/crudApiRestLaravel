@@ -13,7 +13,7 @@ class Directorio extends Migration
      */
     public function up()
     {
-        Schema::create('directorio', function (Blueprint $table) {
+        Schema::create('directorios', function (Blueprint $table) {
             $table->id();
             $table->string('nombre_completo', 100);
             $table->string('direccion')->nullable();
