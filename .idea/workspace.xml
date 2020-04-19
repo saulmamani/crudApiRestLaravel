@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db92a05d-2ab4-418b-94f1-8034b42544e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Directorio.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DirectorioController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_04_19_170904_directorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_04_19_170904_directorio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DirectorioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DirectorioController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587330015389</updated>
-      <workItem from="1587330017267" duration="1467000" />
+      <workItem from="1587330017267" duration="1552000" />
     </task>
     <servers />
   </component>

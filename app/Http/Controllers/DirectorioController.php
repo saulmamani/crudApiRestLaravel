@@ -13,10 +13,9 @@ class DirectorioController extends Controller
         return Directorio::all();
     }
 
-
     public function store(Request $request)
     {
-        //
+
     }
 
     /**
