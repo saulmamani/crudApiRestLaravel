@@ -2,7 +2,9 @@
 
 namespace App\Http\Requests;
 
+use App\Directorio;
 use Illuminate\Foundation\Http\FormRequest;
+use phpDocumentor\Reflection\DocBlock\Tags\Return_;
 
 class UpdateDirectorioRequest extends FormRequest
 {
@@ -23,9 +25,6 @@ class UpdateDirectorioRequest extends FormRequest
      */
     public function rules()
     {
-        return [
-            'nombre_completo' => 'required|min:5|max:100',
-            'telefono' => 'required|unique:directorios,telefono,' . $this->route('directorio')->id
-        ];
+        return Directorio::rules(false);
     }
 }

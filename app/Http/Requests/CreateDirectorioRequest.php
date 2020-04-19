@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests;
 
+use App\Directorio;
 use Illuminate\Foundation\Http\FormRequest;
 
 class CreateDirectorioRequest extends FormRequest
@@ -23,9 +24,6 @@ class CreateDirectorioRequest extends FormRequest
      */
     public function rules()
     {
-        return [
-            'nombre_completo' => 'required|min:5|max:100',
-            'telefono' => 'required|unique:directorios,telefono'
-        ];
+        return Directorio::rules();
     }
 }

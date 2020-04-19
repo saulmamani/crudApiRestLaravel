@@ -52,14 +52,13 @@ class DirectorioController extends Controller
         ], 200);
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+    //DELETE elimina datos
     public function destroy($id)
     {
-        //
+        Directorio::destroy($id);
+        return response()->json([
+            'res' => true,
+            'message' => 'Eliminado correctamente'
+        ], 200);
     }
 }
