@@ -19,4 +19,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::resource('directorios', 'DirectorioController');
+Route::Apiresource('directorios', 'DirectorioController');

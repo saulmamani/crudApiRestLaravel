@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Directorio;
+use App\Http\Requests\CreateDirectorioRequest;
 use Illuminate\Http\Request;
 
 class DirectorioController extends Controller
@@ -22,20 +23,21 @@ class DirectorioController extends Controller
         return $contactos;
     }
 
-    public function store(Request $request)
+    //POST insertar nuevos elementos
+    public function store(CreateDirectorioRequest $request)
     {
-
+        $input = $request->all();
+        $directorio = Directorio::create($input);
+        return response()->json([
+            'res' => true,
+            'directorio' => $directorio
+        ]);
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
+    //GET mostrar un elemento
+    public function show(Directorio $directorio)
     {
-        //
+        return $directorio;
     }
 
     /**
