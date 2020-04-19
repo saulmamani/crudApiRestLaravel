@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db92a05d-2ab4-418b-94f1-8034b42544e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/fotografias/1587337397.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Directorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Directorio.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DirectorioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DirectorioController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CreateDirectorioRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CreateDirectorioRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateDirectorioRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateDirectorioRequest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587330015389</updated>
-      <workItem from="1587330017267" duration="6319000" />
+      <workItem from="1587330017267" duration="8100000" />
     </task>
     <servers />
   </component>
@@ -178,6 +176,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="655" y="358" width="669" height="398" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587337496155">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="655" y="358" width="669" height="398" key="#com.intellij.fileTypes.FileTypeChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1587337496155" />
     <state x="883" y="115" width="1037" height="737" key="SettingsEditor" timestamp="1587330350794">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
