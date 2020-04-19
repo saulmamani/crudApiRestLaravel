@@ -8,9 +8,18 @@ use Illuminate\Http\Request;
 class DirectorioController extends Controller
 {
     //GET listar datos
-    public function index()
+    public function index(Request $request)
     {
-        return Directorio::all();
+        if($request->has('txtBuscar'))
+        {
+            $contactos = Directorio::where('nombre_completo', 'like', '%'. $request->txtBuscar. '%')
+                        ->orWhere('telefono', $request->txtBuscar)
+                        ->get();
+        }
+        else
+            $contactos = Directorio::all();
+
+        return $contactos;
     }
 
     public function store(Request $request)
