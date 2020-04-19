@@ -13,7 +13,7 @@ class UpdateDirectorioRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,8 @@ class UpdateDirectorioRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'nombre_completo' => 'required|min:5|max:100',
+            'telefono' => 'required|unique:directorios,telefono,' . $this->route('directorio')->id
         ];
     }
 }

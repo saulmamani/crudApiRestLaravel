@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="db92a05d-2ab4-418b-94f1-8034b42544e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DirectorioController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DirectorioController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateDirectorioRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateDirectorioRequest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587330015389</updated>
-      <workItem from="1587330017267" duration="3557000" />
+      <workItem from="1587330017267" duration="5255000" />
     </task>
     <servers />
   </component>
@@ -179,5 +180,9 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="883" y="115" width="1037" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1587330350794" />
+    <state x="658" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1587334043522">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="658" y="259" width="672" height="678" key="search.everywhere.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1587334043522" />
   </component>
 </project>

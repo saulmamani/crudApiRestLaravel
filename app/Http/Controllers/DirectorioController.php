@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Directorio;
 use App\Http\Requests\CreateDirectorioRequest;
+use App\Http\Requests\UpdateDirectorioRequest;
 use Illuminate\Http\Request;
 
 class DirectorioController extends Controller
@@ -30,8 +31,8 @@ class DirectorioController extends Controller
         $directorio = Directorio::create($input);
         return response()->json([
             'res' => true,
-            'directorio' => $directorio
-        ]);
+            'message' => 'Creado correctamente'
+        ], 200);
     }
 
     //GET mostrar un elemento
@@ -40,16 +41,15 @@ class DirectorioController extends Controller
         return $directorio;
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
+    //PUT para modificar datos
+    public function update(UpdateDirectorioRequest $request, Directorio $directorio)
     {
-        //
+        $input = $request->all();
+        $directorio->update($input);
+        return response()->json([
+            'res' => true,
+            'message' => 'Actualizado correctamente'
+        ], 200);
     }
 
     /**
